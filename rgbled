@@ -1,0 +1,35 @@
+import time
+import RPi.GPIO as GPIO
+import w1thermsensor
+from datetime import datetime
+from gpiozero import RGBLED
+#GPIO.setmode(GPIO.BCM)
+#GPIO.setwarnings(False)
+ 
+#GPIO.setup(21, GPIO.OUT)
+#GPIO.output(21, GPIO.HIGH)
+
+led = RGBLED(9, 10, 11)
+led.color = (1, 0, 0)
+led.color = (0, 1, 0)
+led.color = (0, 0, 0)
+temperatura_max = 30.0
+sensor = w1thermsensor.W1ThermSensor()
+try:
+    while True:
+        temperatura = sensor.get_temperature()
+        czas = datetime.now()
+        print(czas.strftime("%c"), "| \033[1;32;40m  Temperatura wynosi: ", temperatura, " C \n")
+        if temperatura > temperatura_max:
+            led.color = (0, 1, 0)
+            print("\033[1;31;40m  Temperatura przekracza 30 stopni! Włączam alarm \n")
+        else:
+            led.color = (1, 0, 0)
+
+        time.sleep(2)
+
+except KeyboardInterrupt:
+    #GPIO.output(21, GPIO.HIGH)
+    led.color = (0, 0, 0)
+    print('Koniec')
+    #GPIO.cleanup()
