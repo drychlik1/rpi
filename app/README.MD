@@ -13,7 +13,7 @@ Polecenie dodające godzinę oraz datę do odczytywanego parametru (np. temperat
 #### - [x] Zapis do pliku
 Polecenie umożliwiające podgląd w terminalu wykonywania skryptu oraz zapisu do pliku danych (np. temp., godzina, data)
 ### - [x] Kolorowanie składni
-Polecenie umożliwia pokolorowanie wartości odczytywanych z czujników (np. <span style="color:green">10.08.2022 | godz. 10:32:</style><span style="color:red">Temperatura wynosi: 20 stopni celsujusza (C)</style>
+Polecenie umożliwia pokolorowanie wartości odczytywanych z czujników (np. <font color="green"> 0.08.2022 | godz. 10:32:</font><font color="red">Temperatura wynosi: 20 stopni celsujusza (C)</font>
 ***
 ### Podstawowe założenia projektu:
 - Niska cena
