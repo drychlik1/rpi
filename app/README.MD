@@ -8,7 +8,7 @@ Wszelkie skrypty powstają na bazie Raspberry Pi Zero W H z 2017 v. 1.4
 - Łatwość programowania
 - Dostępność pomocy
 - Proste obwody
-
+***
 ### Projekt składa się z:
 - [] Czujnika temperatury **DSB,**
 - [] Czujnika temperatury i wilgotności **DHT11,**
