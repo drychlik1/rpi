@@ -5,7 +5,15 @@ Wszelkie skrypty powstają na bazie Raspberry Pi Zero W H z 2017 v. 1.4
 
 ## Co tutaj znajdziesz?
 ### Skrypty
->> Skrypty są w poszczególnych folderach. Projekt składa się z kilku lub kilkunastu skryptów, dzięki którym ma stworzyć całą instalację. 
+> Skrypty są w poszczególnych folderach. Projekt składa się z kilku lub kilkunastu skryptów, dzięki którym ma stworzyć całą instalację. 
+### Python
+Funkcje wdrażane od początku
+#### - [x] Czas
+Polecenie dodające godzinę oraz datę do odczytywanego parametru (np. temperatury z czujnika) bez błędu powtarzania w pętli.
+#### - [x] Zapis do pliku
+Polecenie umożliwiające podgląd w terminalu wykonywania skryptu oraz zapisu do pliku danych (np. temp., godzina, data)
+### - [x] Kolorowanie składni
+Polecenie umożliwia pokolorowanie wartości odczytywanych z czujników (np. <span style="color:green">10.08.2022 | godz. 10:32:</style><span style="color:red">Temperatura wynosi: 20 stopni celsujusza (C)</style>
 ***
 ### Podstawowe założenia projektu:
 - Niska cena
