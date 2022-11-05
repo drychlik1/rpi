@@ -5,7 +5,7 @@ Wszelkie skrypty powstają na bazie Raspberry Pi Zero W H z 2017 v. 1.4
 
 ## Co tutaj znajdziesz?
 ### Skrypty
-> Skrypty są w poszczególnych folderach. Projekt składa się z kilku lub kilkunastu skryptów, dzięki którym ma stworzyć całą instalację. 
+>> Skrypty są w poszczególnych folderach. Projekt składa się z kilku lub kilkunastu skryptów, dzięki którym ma stworzyć całą instalację. 
 ***
 ### Podstawowe założenia projektu:
 - Niska cena
