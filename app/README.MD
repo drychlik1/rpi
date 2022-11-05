@@ -1,3 +1,3 @@
 HI!
->[!NOTE]
+>!WAŻND
 >Co myślisz?
