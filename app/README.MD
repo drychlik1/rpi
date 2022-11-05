@@ -10,7 +10,7 @@ Wszelkie skrypty powstają na bazie Raspberry Pi Zero W H z 2017 v. 1.4
 - Proste obwody
 ***
 ### Projekt składa się z:
-- [] Czujnika temperatury **DSB,**
+- [x] Czujnika temperatury **DSB,**
 - [] Czujnika temperatury i wilgotności **DHT11,**
 - [] Czujnika temperatury, ciśnienia, wysokości nad poziomem morza i ciśnienia nad poziomem morza **BMP180**
-- [] Czujnika 
+- [] Wyświetlacza
